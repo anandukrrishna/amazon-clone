@@ -14,7 +14,7 @@
 <body>
     <header>
 
-        <nav class="navbar">
+        <nav class="navbar" id="hero">
             <div class="nav-logo border">
                 <div class="logo"> </div>
             </div>
@@ -37,11 +37,12 @@
                 <select class="search-select">
                     <option>All</option>
                 </select>
-                <input class="search-input" placeholder="Search Amazon">
+                <input class="search-input" type="search" placeholder="Search Amazon" aria-label="Search products">
                 <div class="search-icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
+            
 
             <div class="nav-signin border">
                 <p><span>Hello, sign in</span></p>
@@ -80,78 +81,132 @@
 
     </header>
 
-    <div class="hero-sec">
-        <div class="hero-msg">
-            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
-                delivery. <a href="#">Click here to go to amazon.in </a> </p>
-        </div>
-    </div>
+    <main>
 
-    <div class="shop-sec">
-        <div class="box">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('/media/box1_image.jpg');"></div>
-                <p>see more</p>
-            </div>
-        </div>
-        <div class="box ">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('/media/box2_image.jpg');"></div>
-                <p>see more</p>
-            </div>
-        </div>
-        <div class="box ">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('/media/box3_image.jpg');"></div>
-                <p>see more</p>
-            </div>
-        </div>
-        <div class="box ">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('/media/box4_image.jpg');"></div>
-                <p>see more</p>
-            </div>
-        </div>
-        <div class="box ">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('/media/box5_image.jpg');"></div>
-                <p>see more</p>
-            </div>
-        </div>
-        <div class="box ">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('/media/box6_image.jpg');"></div>
-                <p>see more</p>
-            </div>
-        </div>
-        <div class="box ">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('/media/box7_image.jpg');"></div>
-                <p>see more</p>
-            </div>
-        </div>
-        <div class="box ">
-            <div class="box-content">
-                <h2>Health & Personal Care</h2>
-                <div class="box-img" style="background-image: url('/media/box8_image.jpg');"></div>
-                <p>see more</p>
+        <div class="hero-sec" >
+            <div class="hero-msg">
+                <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                    delivery. <a href="#">Click here to go to amazon.in </a> </p>
             </div>
         </div>
 
-    </div>
+        <div class="shop-sec">
+            <div class="box">
+                <div class="box-content">
+                    <h2>Shoes</h2>
+                    <div class="box-img" style="background-image: url('media/shoes.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>Watches</h2>
+                    <div class="box-img" style="background-image: url('media/watch.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>Furniture</h2>
+                    <div class="box-img" style="background-image: url('media/furniture.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>Smart Phone</h2>
+                    <div class="box-img" style="background-image: url('media/phone.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>Beuty Products</h2>
+                    <div class="box-img" style="background-image: url('media/skincare.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>Electronics</h2>
+                    <div class="box-img" style="background-image: url('media/tv.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>kids toys</h2>
+                    <div class="box-img" style="background-image: url('media/toys.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>Fashion</h2>
+                    <div class="box-img" style="background-image: url('media/fashion.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+             <div class="box ">
+                <div class="box-content">
+                    <h2>Alexa</h2>
+                    <div class="box-img" style="background-image: url('media/alexa.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>Pet care</h2>
+                    <div class="box-img" style="background-image: url('media/pet.webp');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>Food products </h2>
+                    <div class="box-img" style="background-image: url('media/food.gif');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-content">
+                    <h2>House hold </h2>
+                    <div class="box-img" style="background-image: url('media/cloth.webp');"></div>
+                    <p>see more</p>
+                </div>
+            </div>
 
-    <!-- gggggggggggggggggggggggggggggg -->
+        </div>
+
+    </main>
+
+
+
+
 
     <footer>
+
+        <!-- Contact Form -->
+        <section class="contact-section">
+
+            <h2>Stay Connected</h2>
+
+            <p>Subscribe to receive updates and special offers.</p>
+
+            <form class="contact-form" action="#">
+
+                <label for="email">Email Address</label>
+
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <button type="submit">Subscribe</button>
+
+            </form>
+
+        </section>
+
         <div class="foot-panel1">
-            Back to top
+            <a href="#hero">Back to top</a>
         </div>
 
         <div class="foot-panel2">
@@ -170,63 +225,124 @@
 
             <ul>
                 <li>
-                    <p>Get to know us</p>
+                    <p>Make Money with us</p>
                 </li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">About Amazon</a></li>
-                <li><a href="">Investor Relations</a></li>
-                <li><a href="">Amazon Devices</a></li>
-                <li><a href="">Amazon Science</a></li>
+                <li><a href="">Sell products on Amazon</a></li>
+                <li><a href="">Sell on Amazon Business</a></li>
+                <li><a href="">Sell apps on Amazon</a></li>
+                <li><a href="">Become an Affilliate</a></li>
+                <li><a href="">Advertise Your Products</a></li>
+                <li><a href="">Self-publish with us</a></li>
+                <li><a href="">Host an Amazon HUb</a></li>
+                <li><a href="">See more Make money tips</a></li>
 
             </ul>
 
             <ul>
                 <li>
-                    <p>Get to know us</p>
+                    <p>Amazon payments</p>
                 </li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">About Amazon</a></li>
-                <li><a href="">Investor Relations</a></li>
-                <li><a href="">Amazon Devices</a></li>
-                <li><a href="">Amazon Science</a></li>
+                <li><a href="">Amazon Bussiness Cards</a></li>
+                <li><a href="">Shop with Points</a></li>
+                <li><a href="">Reload Your Balance</a></li>
+                <li><a href="">Amazon Currency Converter</a></li>
 
             </ul>
 
             <ul>
                 <li>
-                    <p>Get to know us</p>
+                    <p>Lets Us Help You</p>
                 </li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">About Amazon</a></li>
-                <li><a href="">Investor Relations</a></li>
-                <li><a href="">Amazon Devices</a></li>
-                <li><a href="">Amazon Science</a></li>
+                <li><a href="">your Account</a></li>
+                <li><a href="">Your Orders</a></li>
+                <li><a href="">Shipping Rates & Policies</a></li>
+                <li><a href="">Return & replacements</a></li>
+                <li><a href="">Manage Your Content and Device </a></li>
+                <li><a href="">Amazon Assistant</a></li>
+                <li><a href="">Help</a></li>
 
             </ul>
 
-            <ul>
-                <li>
-                    <p>Get to know us</p>
-                </li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">About Amazon</a></li>
-                <li><a href="">Investor Relations</a></li>
-                <li><a href="">Amazon Devices</a></li>
-                <li><a href="">Amazon Science</a></li>
-
-            </ul>
 
         </div>
 
         <div class="foot-panel3">
             <div class="logo2"></div>
+            <div class="pref">
+                <div>
+                    <a href="#"><i class="fa-solid fa-globe"></i>
+                        English </a>
+                </div>
+
+
+                <div>
+                    <a href="#"><i class="fa-solid fa-flag-usa"></i>
+                        United States</a>
+                </div>
+
+            </div>
         </div>
 
         <div class="foot-panel4">
+            <div class="serv">
+
+                <ul>
+                    <li>
+                        <p>AbeBooks</p>
+                    </li>
+                    <li><a href="">Books</a></li>
+                    <li><a href="">art & collectible</a></li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>Amazon Web Services </p>
+                    </li>
+                    <li><a href="">Scalable Cloud</a></li>
+                    <li><a href="">Computing Services</a></li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>Audible</p>
+                    </li>
+                    <li><a href="">Download</a></li>
+                    <li><a href="">Audio Books</a></li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>IMDb</p>
+                    </li>
+                    <li><a href="">Movies</a></li>
+                    <li><a href="">TV & Celebrities</a></li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>Shopbop</p>
+                    </li>
+                    <li><a href="">Designer</a></li>
+                    <li><a href="">Fashion Brands</a></li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>Amazon Business</p>
+                    </li>
+                    <li><a href="">Business tips</a></li>
+                    <li><a href="">Patents</a></li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>Amazon Music</p>
+                    </li>
+                    <li><a href="">Stream songs</a></li>
+                    <li><a href="">Podcasts</a></li>
+                </ul>
+
+            </div>
             <div class="pages">
                 <a>Condtions of Use</a>
                 <a>Privacy Notice</a>
