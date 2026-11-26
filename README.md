@@ -36,10 +36,12 @@ amazon-clone/
 1. Clone or download this repository.
 2. Open the project folder in VS Code.
 3. Open `index.html` in your browser.
-
+4. 
 ## Purpose
 
 This project was created to practise HTML structure, CSS styling, Flexbox, Grid, positioning, and responsive web design.
+
+## Live Link : https://anandukrrishna.github.io/amazon-clone/
 
 ## Author
 
